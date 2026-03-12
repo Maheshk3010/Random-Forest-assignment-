@@ -1,33 +1,75 @@
 # Random Forest – Glass Classification
 
-## 📌 Objective
-The objective of this assignment is to build a Random Forest
-model to classify different types of glass based on their
-chemical properties.
+This project applies the Random Forest algorithm to classify different types of glass based on their chemical properties.
 
-## 📂 Dataset
-File used: glass.xlsx
+ Dataset
 
-The dataset contains chemical components of glass samples
-such as RI, Na, Mg, Al, Si, K, Ca, Ba, Fe and the target
-column representing glass type.
+File used: `glass.xlsx`
 
-## 🛠 Steps Performed
-1. Loaded dataset using pandas
-2. Checked basic data information
-3. Handled missing values
-4. Split dataset into training and testing sets
-5. Trained Random Forest Classifier
-6. Evaluated model using Accuracy and Classification Report
-7. Analyzed feature importance
+The dataset contains chemical components of glass samples such as:
 
-## 🤖 Model Used
-Random Forest Classifier (scikit-learn)
+- RI (Refractive Index)
+- Na (Sodium)
+- Mg (Magnesium)
+- Al (Aluminum)
+- Si (Silicon)
+- K (Potassium)
+- Ca (Calcium)
+- Ba (Barium)
+- Fe (Iron)
 
-## 📊 Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1 Score
+Target column: **Type** (Glass category)
+
+---
+
+Steps Performed
+
+1. Loaded the dataset using pandas
+2. Performed Exploratory Data Analysis (EDA)
+3. Checked missing values
+4. Visualized data using:
+   - Histogram
+   - Boxplot
+   - Pair Plot
+5. Performed correlation analysis using heatmap
+6. Split dataset into training and testing sets
+7. Applied feature scaling
+8. Trained Random Forest Classifier
+9. Evaluated model using:
+   - Accuracy Score
+   - Classification Report
+10. Implemented Bagging and Boosting methods
+11. Compared model performance
+
+---
+
+ Algorithms Used
+
+- Random Forest
+- Bagging
+- Gradient Boosting
+
+---
+
+ Libraries Used
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+---
+
+ Conclusion
+
+Random Forest performed well for classifying glass types. Ensemble methods like Bagging and Boosting were also tested and compared to evaluate their performance.
+
+---
+
+ Author
+
+Mahesh Kale  
+Data Science Course  
 
 
